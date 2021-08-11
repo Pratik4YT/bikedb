@@ -15,7 +15,7 @@ MySQL  localhost:33060+ ssl  SQL >use bikedb;
 
 MySQL  localhost:33060+ ssl  bikedb  SQL >CREATE TABLE bike (Id int(11) not null auto_increment,Name varchar(256) not null,Status varchar(256) default null,Company int(11) not null,primary key(Id));
 
-MySQL  localhost:33060+ ssl  bikedb  SQL >INSERT INTO bike VALUES(1,'RC-15','ACTIVE',1),(2,'G-310R','ACTIVE',2),(3,'NANJA-H2','ACTIVE',3);
+MySQL  localhost:33060+ ssl  bikedb  SQL >INSERT INTO bike VALUES(1,'RC-15','ACTIVE',1),(2,'G-310R','ACTIVE',2),(3,'NINJA-H2','ACTIVE',3);
 
 
 MySQL  localhost:33060+ ssl  bikedb  SQL >CREATE TABLE company(Id int(11) not null auto_increment,Name varchar(256) not null,Found int(11) not null,primary key(Id));
